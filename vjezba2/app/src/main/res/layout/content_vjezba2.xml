@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/mercedes"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/tsd_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#B71C1C"
+        android:text="Tehnička škola Daruvar "
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:text="Gundulićeva 14"
+        android:background="#B71C1C"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:text="3. RT"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="#009688"
+        android:textColor="FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"/>
+
+</RelativeLayout>
